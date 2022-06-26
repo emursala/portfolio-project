@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #fd94b4;
+  --secondary-color: #ffa8e9;
+  --third-color: #ff89c0;
+  --border: 1px solid #dd60b4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background: #e7b8e9;
+}
+body {
+  background-color: var(--background);
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.bg-light {
+  background-color: var(--third-color) !important;
+}
+.hero {
+  text-align: center;
+  margin-top: 25px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.aboutMe {
+  border: var(--border);
+  border-radius: 2px;
+  background: var(--primary-color);
+  text-decoration: none;
+  margin-right: 50px;
+  padding: 10px 20px;
+}
+.myWork {
+  border: var(--border);
+  background: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+.contactMe {
+  border: var(--border);
+  background: var(--third-color);
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
