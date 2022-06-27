@@ -9,18 +9,12 @@
 body {
   background-color: var(--background);
 }
-h1 {
-  font-family: "Roboto Slab", serif;
+footer {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
-h2 {
-  font-family: "Nunito", sans-serif;
-}
-h3 {
-  font-family: "Nunito", sans-serif;
-}
-
 .navbar {
-  font-family: "Roboto Slab", serif;
   text-align: center;
   position: fixed;
   top: 0;
@@ -62,4 +56,27 @@ h3 {
   margin-left: 50px;
   padding: 10px 20px;
   border-radius: 2px;
+}
+.weatherBtn {
+  border: var(--border);
+  background: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.weatherProject {
+  margin-top: 100px;
+}
+.roboto {
+  font-family: "Roboto Slab", serif;
+}
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+.headingSize {
+  font-size: 46px;
+}
+.paragraphSize {
+  font-size: 18px;
 }
