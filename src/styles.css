@@ -8,11 +8,17 @@
 }
 body {
   background-color: var(--background);
+  margin: 0 auto;
 }
 footer {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 50px;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
 }
 .navbar {
   text-align: center;
@@ -79,4 +85,73 @@ footer {
 }
 .paragraphSize {
   font-size: 18px;
+}
+.border {
+  border-color: #dd60b4 !important;
+  box-shadow: var(--box-shadow);
+}
+.aboutMeHeading {
+  padding-top: 50px;
+}
+.aboutImg {
+  padding-left: 50px;
+}
+.whyMeBtn {
+  border: var(--border);
+  background: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+}
+.aboutP {
+  margin-top: 65px;
+  font-size: 25px;
+  padding: 25px 80px;
+}
+.boxShadow {
+  box-shadow: var(--box-shadow);
+}
+.whyBox {
+  border: var(--border);
+  background: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+  margin-top: 100px;
+}
+.pcBox {
+  border: var(--border);
+  background: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+  margin-top: 100px;
+}
+.hoverwrap {
+  position: relative;
+}
+.hovercap {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #8a42699c;
+  color: white;
+}
+.hovercap {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.hoverwrap:hover .hovercap {
+  visibility: visible;
+  opacity: 1;
+}
+.food {
+  border-radius: 10px;
 }
