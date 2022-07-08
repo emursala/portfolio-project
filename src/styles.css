@@ -238,7 +238,7 @@ li {
   }
   .indexMedia {
     position: relative;
-    right: 93px;
+    right: 85px;
     text-align: center;
   }
   .indexVegan {
@@ -251,5 +251,8 @@ li {
   }
   .messageBox {
     width: 100%;
+  }
+  .indexBtn {
+    padding: 6px;
   }
 }
