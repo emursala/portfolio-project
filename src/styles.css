@@ -238,12 +238,12 @@ li {
   }
   .indexMedia {
     position: relative;
-    right: 85px;
+    right: 95px;
     text-align: center;
   }
   .indexVegan {
     position: relative;
-    left: 95px;
+    left: 105px;
     text-align: center;
   }
   .mediaHeadings {
@@ -254,5 +254,15 @@ li {
   }
   .indexBtn {
     padding: 6px;
+  }
+  .projectBtn {
+    position: relative;
+    right: 80px;
+    text-align: center;
+  }
+  .veganBtn {
+    position: relative;
+    left: 120px;
+    text-align: center;
   }
 }
