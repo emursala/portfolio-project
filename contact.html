@@ -63,21 +63,69 @@
       <br />
       <br />
       <br />
-      <p>CONTACT ME</p>
+      <p class="nunito">CONTACT ME</p>
       <hr />
-      <form
-        action="https://formsubmit.co/2f14380c089d81092cd9c8028348a76e"
-        method="POST"
-      >
-        <input type="email" name="email" placeholder="Email Address" required />
-        <input type="text" name="name" required />
-        <input
-          type="hidden"
-          name="_next"
-          value="https://jade-biscuit-2ba220.netlify.app/thankyou.html"
-        />
-        <button type="submit">Send</button>
-      </form>
+      <h1 class="text-center nunito">
+        Interested in taking the next step with me?
+      </h1>
+      <h2 class="text-center nunito grateful">I'm very grateful😊</h2>
+      <div class="text-center m-5">
+        <form
+          action="https://formsubmit.co/2f14380c089d81092cd9c8028348a76e"
+          method="POST"
+        >
+          <input
+            class="roboto emailBox"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <div>
+            <textarea
+              class="nunito messageBox"
+              type="text"
+              name="message"
+              placeholder="Type your message here..."
+              required
+            ></textarea>
+          </div>
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://jade-biscuit-2ba220.netlify.app/thankyou.html"
+          />
+          <button class="sendBtn roboto text-uppercase" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="d-flex justify-content-evenly">
+        <i class="fa-brands fa-linkedin contactIcons"
+          ><a
+            href="https://www.linkedin.com/in/esmeralda-givan"
+            target="_blank"
+            class="contactFooter"
+            >Esmeralda Givan</a
+          ></i
+        >
+
+        <i class="fa-brands fa-instagram-square contactIcons"
+          ><a
+            href="https://instagram.com/eigivan?igshid=YmMTA2M2y"
+            target="_blank"
+            class="contactFooter"
+            >@eigivan</a
+          ></i
+        >
+      </div>
+      <footer class="nunito">
+        Coded by
+        <a href="https://github.com/emursala/portfolio-project" target="_blank"
+          >Esmeralda Givan</a
+        >
+      </footer>
     </div>
   </body>
 </html>

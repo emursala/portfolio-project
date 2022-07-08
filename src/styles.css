@@ -91,12 +91,14 @@ li {
   box-shadow: var(--box-shadow);
 }
 .aboutMeHeading {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .aboutImg {
-  padding-left: 50px;
+  border-radius: 50%;
+  padding: 80px;
 }
 .whyMeBtn {
+  color: #ff00aad0;
   border: var(--border);
   background: var(--secondary-color);
   text-decoration: none;
@@ -154,4 +156,78 @@ li {
 }
 .food {
   border-radius: 10px;
+}
+.thankYou {
+  margin-top: 100px;
+  text-align: center;
+}
+.emailBox {
+  background-color: #ff41c081;
+  border-radius: 10px;
+}
+.messageBox {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 50%;
+  padding-bottom: 325px;
+  background-color: #fdaee3a2;
+}
+.sendBtn {
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: var(--primary-color);
+}
+.grateful {
+  font-size: 18px;
+  font-style: italic;
+}
+.contactIcons {
+  font-size: 25px;
+}
+.contactFooter {
+  padding-left: 5px;
+  text-decoration: none;
+  color: rgb(89, 89, 233);
+}
+.contactFooter:hover {
+  color: #dd60b4;
+}
+.pcBox:hover {
+  background: var(--third-color);
+}
+.whyBox:hover {
+  background: var(--primary-color);
+}
+.pcText {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+.thankYouImg {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 50px;
+  opacity: 70%;
+}
+@media (max-width: 767.98px) {
+  .aboutImg {
+    display: none;
+  }
+  .aboutMeHeading {
+    padding-top: 0;
+    text-align: center;
+    display: grid;
+    position: relative;
+    right: 125px;
+  }
+  .whyMeBtn {
+    position: relative;
+    bottom: 28px;
+  }
+  .food {
+    padding-bottom: 25px;
+    box-shadow: none;
+  }
 }
