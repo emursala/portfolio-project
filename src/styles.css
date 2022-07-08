@@ -211,6 +211,9 @@ li {
   padding: 50px;
   opacity: 70%;
 }
+::placeholder {
+  color: #000000;
+}
 @media (max-width: 767.98px) {
   .aboutImg {
     display: none;
@@ -229,5 +232,24 @@ li {
   .food {
     padding-bottom: 25px;
     box-shadow: none;
+  }
+  .indexImg {
+    display: none;
+  }
+  .indexMedia {
+    position: relative;
+    right: 90px;
+    text-align: center;
+  }
+  .indexVegan {
+    position: relative;
+    left: 90px;
+    text-align: center;
+  }
+  .mediaHeadings {
+    font-size: 35px;
+  }
+  .messageBox {
+    width: 100%;
   }
 }
